@@ -1,0 +1,29 @@
+{
+    "name": "wubinworks/module-require-css",
+    "description": "An extremely simple module that enables Magento 2's ability to use Require Css.",
+    "require": {
+        "magento/magento2-base": "*",
+        "magento/module-backend": "*",
+        "magento/module-theme": "*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Wubinworks",
+            "email": "wubinworks@outlook.com",
+            "homepage": "https://github.com/wubinworks/magento2-require-css",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Wubinworks\\RequireCss\\": ""
+        }
+    }
+}
